@@ -1,11 +1,12 @@
-import FuncComponent from '../components/FuncComponent'
+import ComponentFunction from '../components/ComponentFunction'
 import './App.css'
 
-function App() {
 
+function App() {
+  
   return (
     <div className="App">
-      <ul><FuncComponent/></ul>
+    <ComponentFunction/>
     </div>
   )
 }
